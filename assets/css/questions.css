@@ -1,0 +1,118 @@
+h1 {
+    font-family: 'Gabriola', serif;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Cambria', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+}
+
+p {
+    font-family: 'Gabriola', serif;
+}
+
+
+/* Quiz Classes */
+
+.quizContainer {
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 6px;
+    width: 75%;
+    padding-top: 5px;
+    -moz-box-shadow: 10px 10px 5px #888;
+    -webkit-box-shadow: 10px 10px 5px #888;
+    box-shadow: 10px 10px 5px #888;
+}
+
+.nextButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: right;
+    right: 30%;
+}
+
+.lastButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+    float: left;
+    left: 30%;
+}
+
+.question {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    background-color: lightcyan;
+    text-align: center;
+}
+
+.quizMessage {
+    background-color: black;
+    border-radius: 6px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gabriola', serif;
+    color: red;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.result {
+    width: 40%;
+    height: auto;
+    border-radius: 6px;
+    background-color: linen;
+    margin: auto;
+    color: gold;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Verdana', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
